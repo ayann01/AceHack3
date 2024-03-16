@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="text-center">Personal Information</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-offset-1 col-sm-10">
+                            <table class="table">
+                                <tr>
+                                    <th>Name: Student</th>
+                                    <td id="name"></td>
+                                </tr>
+                                <tr>
+                                    <th>Public Key : 0xabcd</th>
+                                    <td id="age"></td>
+                                </tr>
+                                <tr>
+                                    <th>Previous Diagnoses : None</th>
+                                    <td id="age"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                        
+                </div>
+                <form class="form-horizontal" action="/action_page.php">
+                    <div class="form-group"> 
+                        <label for="permitDoctorList" class="control-label col-sm-2" ><b>Diagnosis:</b></label>
+                        <div class="col-sm-8">
+                            <select class="form-control" id="permitDoctorList">
+                                <option selected disabled>-- Please Select --</option>
+                            </select>
+                        </div>
+                        <label for="fname"><b>Prescription and Deatails:</b></label>
+                        <input type="text" id="fname" name="fname" style="font-size:50px;"><br><br>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+        </div>
+    </body>
+</html>
+

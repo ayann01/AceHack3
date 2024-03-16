@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SwasthyaChain</title>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+                <a class="navbar-brand" href="./index.html">SwasthyaChain</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="./index.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="text-center">Personal Information</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-10">
+                        <table class="table">
+                            <tr>
+                                <th>Name: Doctor Orctagon</th>
+                                <td id="name"></td>
+                            </tr>
+                            <tr>
+                                <th>Age:49</th>
+                                <td id="age"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+
+        
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="text-center">Accessible EMRs</h3>
+            </div>
+            <div class="panel-body">
+                <!--
+                <div class="row">
+                    <div class="alert alert-danger col-sm-8 col-sm-offset-2">
+                        <strong>Notice!</strong> Could not access records. Access might have been revoked. Contact admin or patient.
+                    </div>
+                </div>
+                -->
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-10" style="margin-right:100px">
+                        <table id="accessDoc" class="table table-hover" style="width:100%" bordercolor="#ff00ff">
+                            <tr>
+                                <th>Patient</th>
+                                <th class="publicKeyPatient">Public Key</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr>
+                                <th>Student hu me</th>
+                                <th class="publicKeyPatient">0xabcd</th>
+                                <th>
+                                    <a href="./viewrecords.html">
+                                        <button>View Records</button>
+                                    </a>
+                                      
+                                </th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+</body>
+
+</html>
